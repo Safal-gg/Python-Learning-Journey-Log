@@ -46,6 +46,8 @@ print("num:",num)
 num /= 10
 print("num:",num)
 
+
+#logical operator
 val1=True
 val2=True
 print("and operator", val1 and val2)
