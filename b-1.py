@@ -54,3 +54,28 @@ print("and operator", val1 and val2)
 print("or operator", val1 or val2)
 print("not operator", not val1)
 
+#type conversion
+a=2
+b=4.25
+print(a+b)
+
+#type casting
+a="2"
+b=int(a)
+print(type(b))
+
+#input
+name = input("enter your name:")
+print(name)
+
+#prac 1
+num1=int(input("enter first number:"))
+num2=int(input("enter second number:"))
+
+sum=num1+num2
+print("sum is:",sum)
+
+#prac 2
+side=float(input("enter side of a square:"))
+area=side*side
+print("area is:",area)
