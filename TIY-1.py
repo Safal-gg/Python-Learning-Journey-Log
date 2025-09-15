@@ -34,3 +34,7 @@ print(f"{guest_4.title()}, Sorry you are not invited to the dinner")
 print(Guests)
 print(f"{Guests[0].title()}, You are still on the list!")
 print(f"{Guests[1].title()}, You are still on the list!")
+
+
+length=len(Guests)
+print("number of people invited to dinner are:",length)
