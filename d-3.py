@@ -23,3 +23,12 @@ print(names)
 #finding the length of the list using len() function.
 
 print(len(names))
+
+#looping through an entire list
+magicians=['david','alice','mark']
+for magician in magicians:
+    print(magician)
+
+#doing mokre work within a for loop
+for magician in magicians:
+    print(f"{magician.title()},you have done a great trick!")
