@@ -41,4 +41,4 @@ print(x)
 
 #removing an item by value
 transportation.remove('aeroplane')
-print(transportation)
+print(transportation) 

@@ -29,6 +29,6 @@ magicians=['david','alice','mark']
 for magician in magicians:
     print(magician)
 
-#doing mokre work within a for loop
+#doing more work within a for loop
 for magician in magicians:
     print(f"{magician.title()},you have done a great trick!")
