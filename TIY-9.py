@@ -15,7 +15,8 @@ Glossary={
     'dictionary':'A collection of key value pairs'
 }
 
-print(f"List:{Glossary['list'].title()}")
-print(f"Slice:{Glossary['slice'].title()}")
-print(f"Tuple:{Glossary['tuple'].title()}")
-print(f"Dictionary:{Glossary['dictionary'].title()}")
+for key,value in Glossary.items():
+    print(f"{key.title()}:{value.title()}")
+
+
+
