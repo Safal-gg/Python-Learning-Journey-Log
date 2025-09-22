@@ -72,3 +72,15 @@ while poll_active!=False:
 print("----poll result----")
 for name,answer in response.items():
     print(f"{name.title()} likes to climb {answer.title()}")
+
+#Defining a function:
+def display():
+    print("Hello")
+
+display()
+
+#Passing information through a function:
+def display_message(message):
+    print(f"Hello! {message.title()}")
+
+display_message("How are you?")
