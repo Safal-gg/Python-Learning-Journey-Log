@@ -51,4 +51,11 @@ my_tesla.battery.upgrade_battery()
 my_tesla.battery.get_range()
     
    
+#The python standard library:
+from random import randint
+print(randint(1,6))
 
+from random import choice
+players=['a','b','c','d']
+e=choice(players)
+print(e)
