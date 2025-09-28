@@ -1,0 +1,3 @@
+Hello world 
+File is opened!! 
+And I am writing in the file
