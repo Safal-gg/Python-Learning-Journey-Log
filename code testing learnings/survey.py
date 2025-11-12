@@ -20,7 +20,3 @@ class AnonymousSurvey:
         for response in self.responses:
             print(f"- {response}")
 
-obj=AnonymousSurvey('oogabooga')
-obj.show_question()
-obj.store_response('booga ooga?')
-obj.show_results()

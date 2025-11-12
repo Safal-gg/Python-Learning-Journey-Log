@@ -1,5 +1,5 @@
 #using range() function 
-for value in range(1,6): #1 to 6 because of off by one behaviour
+for value in range(1,6): #1 to 5 because of off by one behaviour
     print(value)
 
 #using range() function in a list

@@ -64,7 +64,7 @@ while poll_active!=False:
     answer=input("which mountain would you like to climb")
     response[name]=answer
 
-    repeat=input("woud you like to continue yes/no?")
+    repeat=input("would you like to continue yes/no?")
     if repeat.lower()=='no':
         poll_active=False
 
