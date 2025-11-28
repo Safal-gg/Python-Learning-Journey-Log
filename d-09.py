@@ -5,7 +5,7 @@ class Dog:
         self.age=age
 
     def rollover(self):
-        print(f"{self.name.title()} is rolls over.")
+        print(f"{self.name.title()} is rolling over.")
 
     def sit(self):
         print(f"{self.name.title()} is sitting.")
